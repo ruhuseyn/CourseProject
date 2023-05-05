@@ -18,6 +18,9 @@ public class HomeEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
 
+    @Column(name = "slogan")
+    String slogan;
+
     @Column(name = "info")
     String info;
 }

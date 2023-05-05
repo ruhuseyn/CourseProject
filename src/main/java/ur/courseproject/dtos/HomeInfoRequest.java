@@ -1,6 +1,6 @@
 package ur.courseproject.dtos;
 
-public record HomeRequest(
+public record HomeInfoRequest(
 
         String info
 ) {

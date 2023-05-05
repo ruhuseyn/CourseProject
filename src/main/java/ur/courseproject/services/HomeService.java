@@ -1,11 +1,11 @@
 package ur.courseproject.services;
 
-import ur.courseproject.dtos.HomeRequest;
-import ur.courseproject.entities.HomeEntity;
+import ur.courseproject.dtos.HomeInfoRequest;
+import ur.courseproject.dtos.HomeSloganRequest;
 
 public interface HomeService {
 
-    HomeRequest getSloganById(Long id);
+    HomeSloganRequest getSloganById(Long id);
 
-    HomeRequest getInfoById(Long id);
+    HomeInfoRequest getInfoById(Long id);
 }
